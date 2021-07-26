@@ -6,5 +6,10 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular ' + VERSION.major;
+  titre = 'Bienvenue sur mon projet Angular';
+  message="Nalisoa Angular Project";
+  centrer="center";
+  jaune="yellow";
+  taille="25px";
+  
 }

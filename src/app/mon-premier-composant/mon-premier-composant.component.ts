@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MonPremierComposantComponent implements OnInit {
 message='Welcome to my Agular Project';
+couleur="green";
+centre='center';
+police="Arial";
+taille="25px";
+show=false;
   constructor() { }
 
   ngOnInit() {
