@@ -11,7 +11,13 @@ couleur="green";
 centre='center';
 police="Arial";
 taille="25px";
+
 show=false;
+ChangeStatus(){
+  this.show=!this.show;
+  this.couleur="cyan";
+  this.taille="50px";
+}
   constructor() { }
 
   ngOnInit() {

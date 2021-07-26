@@ -1,6 +1,6 @@
 
 <h3 [style.fontFamily]="police"[style.fontSize]="taille" [style.textAlign]="centre"> {{ message }}</h3>
-<button class="btn btn-info">Valider</button>
+<button class="btn btn-danger" (click)="ChangeStatus()">Valider</button>
 <p [hidden]="show" [style.backgroundColor]="couleur" [style.textAlign]="centre">
   Ceci est un test sur la couleur de fond, et l'alignement du têxte
 </p>
