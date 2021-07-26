@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MonPremierComposantComponent implements OnInit {
 message='Welcome to my Agular Project';
-couleur='blue';
   constructor() { }
 
   ngOnInit() {
